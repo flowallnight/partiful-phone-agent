@@ -1,0 +1,15 @@
+# Secrets — never committed (rule 10)
+.env
+
+# Runtime output
+tickets/
+.state/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Machine-local tool settings
+.claude/settings.local.json
